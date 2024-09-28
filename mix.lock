@@ -1,0 +1,8 @@
+%{
+  "castore": {:hex, :castore, "1.0.8", "dedcf20ea746694647f883590b82d9e96014057aff1d44d03ec90f36a5c0dc6e", [:mix], [], "hexpm", "0b2b66d2ee742cb1d9cb8c8be3b43c3a70ee8651f37b75a8b982e036752983f1"},
+  "exsync": {:hex, :exsync, "0.4.1", "0a14fe4bfcb80a509d8a0856be3dd070fffe619b9ba90fec13c58b316c176594", [:mix], [{:file_system, "~> 0.2 or ~> 1.0", [hex: :file_system, repo: "hexpm", optional: false]}], "hexpm", "cefb22aa805ec97ffc5b75a4e1dc54bcaf781e8b32564bf74abbe5803d1b5178"},
+  "file_system": {:hex, :file_system, "1.0.1", "79e8ceaddb0416f8b8cd02a0127bdbababe7bf4a23d2a395b983c1f8b3f73edd", [:mix], [], "hexpm", "4414d1f38863ddf9120720cd976fce5bdde8e91d8283353f0e31850fa89feb9e"},
+  "midiex": {:hex, :midiex, "0.6.3", "58b5296010d2bb356884b1f370e24a6556d115b828f7c198e78623611154be25", [:mix], [{:rustler, "~> 0.29.0", [hex: :rustler, repo: "hexpm", optional: true]}, {:rustler_precompiled, "~> 0.6", [hex: :rustler_precompiled, repo: "hexpm", optional: false]}], "hexpm", "76358a920880106fec46d123385193f26d1dd8b2b1379148ced9b48e42c6484d"},
+  "oscx": {:hex, :oscx, "0.1.1", "0574efd722100f9faf58c35bda90b83aa30c3234a5a629642851966d85c91e9c", [:mix], [], "hexpm", "9da138ebd8f542f324b9ffa33156b96270975dfba9844bc0f74181c5107d4ab4"},
+  "rustler_precompiled": {:hex, :rustler_precompiled, "0.8.1", "8afe0b6f3a9a677ada046cdd23e3f4c6399618b91a6122289324774961281e1e", [:mix], [{:castore, "~> 0.1 or ~> 1.0", [hex: :castore, repo: "hexpm", optional: false]}, {:rustler, "~> 0.23", [hex: :rustler, repo: "hexpm", optional: true]}], "hexpm", "90b8c2297bf7959cfa1c927b2881faad7bb0707183124955369991b76177a166"},
+}
